@@ -17,8 +17,17 @@
 
 package com.kam.pay.alipay.util;
 
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Properties;
+import java.util.StringTokenizer;
 
 /**
  * <p>
@@ -30,7 +39,7 @@ import java.util.*;
  */
 public class PropertiesUtils {
 
-    public static PropertiesUtils propertiesUtil = new PropertiesUtils("api.properties");
+    public static PropertiesUtils propertiesUtil = new PropertiesUtils("alipay.properties");
 
     InputStream is = null;
     /*
