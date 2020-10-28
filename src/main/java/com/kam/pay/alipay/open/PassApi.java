@@ -1,0 +1,1 @@
+package com.kam.pay.alipay.open;/** * 支付宝卡包 Pass */public class PassApi {}

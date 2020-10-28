@@ -1,0 +1,1 @@
+package com.kam.pay.alipay.open;/** * 小程序模板消息 */public class TemplateMessageApi {}
