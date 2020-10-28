@@ -1,0 +1,1 @@
+package com.kam.pay.alipay.open;/** * 会员能力 */public class MemberApi {}
